@@ -1,11 +1,12 @@
 # to import this cheatsheet into Dash, execute following commands
 #   $ cheatset generate git_commands.rb
 #   $ open git_commands.docset
+
 cheatsheet do
   title 'Git Commands'
   docset_file_name 'git_commands'
   keyword 'git'
-  source_url 'http://cheat.kapeli.com'
+  source_url 'https://github.com/akira-hamada/cheatsheets/blob/master/git_commands.rb'
 
   category do
     id 'コミット'
