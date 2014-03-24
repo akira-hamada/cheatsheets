@@ -22,6 +22,20 @@ cheatsheet do
   end
 
   category do
+    id 'ブランチ操作'
+
+    entry do
+      name '現在のブランチ名を変更'
+      notes <<-'CODE'
+        ```bash
+          $ git branch -m 変更後の名前
+        ```
+      CODE
+    end
+
+  end
+
+  category do
     id '変更を退避'
 
     entry do
