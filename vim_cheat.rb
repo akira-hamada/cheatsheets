@@ -42,4 +42,27 @@ cheatsheet do
       CODE
     end
   end
+
+  category do
+    id '設定変更'
+
+    entry do
+      name 'フォントを大きくする'
+      command 'CMD+='
+    end
+
+    entry do
+      name 'フォントを小さくする'
+      command 'CMD+-'
+    end
+
+    entry do
+      name 'フォントサイズをリセット'
+      notes <<-'CODE'
+        ```vim
+          :ResetFont
+        ```
+      CODE
+    end
+  end
 end
